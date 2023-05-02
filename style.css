@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Jost', sans-serif;
+}
+:root{
+    --black:black;
+    --white:white;
+    --less-black:rgb(10, 10, 10);
+}
+.main-cont{
+    display: flex;
+}
+.left{
+    min-height: 100vh;
+    width: 70vw;
+    background-color: var(--black);
+    border-right: 2px dotted rgb(94, 255, 0) ;
+}
+.right{
+
+    min-height: 100vh;
+    width: 30vw;
+    background-color: var(--black);
+}
+
+header{
+    color: var(--black);
+    font-size: 40px;
+    height: 70px;
+    background-color: rgb(94, 255, 0);
+    display: flex;
+    align-items: center;
+    padding: 0px 0px 0px 20px;
+
+}
+.cont{
+    margin: 30px;
+    min-height: 50px;
+    max-width: 60vw;
+    background-color: var(--less-black);
+    border-radius: 20px;
+    padding: 30px;
+}
+.cont-t{
+    color: rgb(94, 255, 0);
+    font-size: 25px;
+}
+.cont-main{
+    color: white;
+}
+.title{
+    display: flex;
+
+}
+.menu{
+    position: absolute;
+    right: 0;
+    padding: 15px;
+}
+footer{
+    height: 50px;
+   
+    background-color: rgb(94, 255, 0);
+}
+.copyright{
+    text-align: center;
+
+}
+strong{
+    font-size: 20px;
+    text-decoration:underline;
+}
+.bar{
+    height: 4px;
+    width: 30px;
+    background-color: black;
+    border: 3px solid rgb(94, 255, 0);
+}
